@@ -12,7 +12,7 @@ public class HomeController {
 
 	@RequestMapping(value = "/{page}")
 	public String home(@PathVariable String page) {
-        if (Arrays.asList("home", "about", "contact").contains(page)) {
+        if (Arrays.asList("home", "about").contains(page)) {
             return "view." + page;
         } else {
             return "error.404";
