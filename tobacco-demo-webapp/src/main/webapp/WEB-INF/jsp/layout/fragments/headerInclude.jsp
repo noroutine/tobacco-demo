@@ -69,8 +69,8 @@
         <util:js value="/resources/js/vendor/modernizr-2.6.2.js"/>
 
         <util:js value="/resources/js/vendor/jquery-1.8.3.js"/>
-        <util:js value="/resources/js/vendor/jquery.ba-tinypubsub.min.js"/>
-        <util:js value="/resources/js/vendor/jquery.Storage.min.js"/>
+        <util:js value="/resources/js/vendor/jquery.ba-tinypubsub.js"/>
+        <util:js value="/resources/js/vendor/jquery.Storage.js"/>
 
         <%-- Backbone.js --%>
         <util:js value="/resources/js/vendor/underscore-1.4.2.js" />
