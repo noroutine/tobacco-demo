@@ -8,7 +8,7 @@
     function add(a, b, callback) {
         $.ajax({
             type: 'get',
-            url: '/todo/api/add',
+            url: '/tobacco-demo/api/add',
             data: {a: a,b: b},
             success: callback
         })
