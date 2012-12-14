@@ -50,9 +50,13 @@
 <small class="muted">
     <spring:url value="/template/dustjs_demo.dust" var="dustjs_demo_url" />
     <spring:url value="/api/add?a=1&b=2" var="ajax_api_demo_url" />
+    <c:set var="github_sources" value="https://github.com/noroutine/tobacco-demo/blob/demo_1.0.2/tobacco-demo-webapp/src/main" />
 
-    You can find source of this page in <code>demo.jsp</code>. JavaScript code can be found in <code>demo.js</code>. Source code for logic is in <code>DemoController.java</code>.<br/>
+    You can find source of this page in <a href="${github_sources}/webapp/WEB-INF/jsp/views/demo.jsp"><code>demo.jsp</code></a>
+    JavaScript code can be found in <a href="${github_sources}/webapp/js/pages/demo.js"><code>demo.js</code></a>
+    Source code for logic is in <a href="${github_sources}/java/me/noroutine/DemoController.java"><code>DemoController.java</code></a>.<br/>
     API endpoint for Ajax Demo can be tested <a href="${ajax_api_demo_url}">here</a>.<br/>
-    dust.js template can be checked at <a href="${dustjs_demo_url}">${dustjs_demo_url}</a>, compiled version is at <a href="${dustjs_demo_url}.js">${dustjs_demo_url}.js</a>.
+    dust.js template source code can be found in <a href="${github_sources}/webapp/WEB-INF/jsp/templates/dustjs_demo.jsp"><code>dustjs_demo.jsp</code></a>
+    dust.js template can be checked at <a href="${dustjs_demo_url}">${dustjs_demo_url}</a>, compiled version is at <a href="${dustjs_demo_url}.js">${dustjs_demo_url}.js</a>
 </small>
 </p>

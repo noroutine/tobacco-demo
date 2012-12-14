@@ -36,7 +36,10 @@
                         </c:choose>
                     </c:forEach>
                 </ul>
-                <span class="nav navbar-text" style="padding-left: 30px">Navbar is stored in <code style="background-color: inherit;">navbar.jsp</code></span>
+                <span class="nav navbar-text" style="padding-left: 30px">
+                    Navbar is stored in <a href="https://github.com/noroutine/tobacco-demo/blob/demo_1.0.2/tobacco-demo-webapp/src/main/webapp/WEB-INF/jsp/layout/fragments/navbar.jsp">
+                    <code style="background-color: inherit;">navbar.jsp</code></a>
+                </span>
                 <ul class="nav pull-right">
                     <c:forEach var="item" items="contact">
                         <spring:message var="itemTitle" code="navbar.${item}.title" />
