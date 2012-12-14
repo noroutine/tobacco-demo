@@ -36,7 +36,7 @@
                         </c:choose>
                     </c:forEach>
                 </ul>
-                <span class="nav navbar-text" style="padding-left: 30px">Navbar is stored in <code style="background-color: inherit;">navbar.jsp</code>
+                <span class="nav navbar-text" style="padding-left: 30px">Navbar is stored in <code style="background-color: inherit;">navbar.jsp</code></span>
                 <ul class="nav pull-right">
                     <c:forEach var="item" items="contact">
                         <spring:message var="itemTitle" code="navbar.${item}.title" />
