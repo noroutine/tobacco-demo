@@ -24,7 +24,7 @@
             <a class="brand" href="home"><spring:message code="project.name"/></a>
             <div class="nav-collapse collapse">
                 <ul class="nav">
-                    <c:forEach var="item" items="home,about">
+                    <c:forEach var="item" items="home,demo,about">
                         <spring:message code="navbar.${item}.title" var="itemTitle"/>
                         <c:choose>
                             <c:when test="${item eq selectedView}">
@@ -36,6 +36,7 @@
                         </c:choose>
                     </c:forEach>
                 </ul>
+                <span class="nav navbar-text" style="padding-left: 30px">Navbar is stored in <code style="background-color: inherit;">navbar.jsp</code>
                 <ul class="nav pull-right">
                     <c:forEach var="item" items="contact">
                         <spring:message var="itemTitle" code="navbar.${item}.title" />
