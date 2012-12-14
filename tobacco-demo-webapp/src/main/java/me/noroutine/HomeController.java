@@ -14,6 +14,6 @@ public class HomeController {
 
     @RequestMapping(value = "/about")
    	public String about() {
-           return "view.about";
+       return "view.about";
    	}
 }
