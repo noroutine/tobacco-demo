@@ -21,7 +21,7 @@
 <p>
     This particular site is just a demonstration of what Tobacco project will look like.<br />
     Try this demo on mobile devices too.<br />
-    You can also check the <a href="https://github.com/noroutine/tobacco-demo">sources of this site on GitHub</a>
+    You can also check the <a href="https://github.com/noroutine/tobacco-demo/blob/demo_1.0.2">sources of this site on GitHub</a>
 </p>
 
 <small class="muted">You can find source of this page in <a href="https://github.com/noroutine/tobacco-demo/blob/demo_1.0.2/tobacco-demo-webapp/src/main/webapp/WEB-INF/jsp/views/about.jsp"><code>about.jsp</code></a></small>
